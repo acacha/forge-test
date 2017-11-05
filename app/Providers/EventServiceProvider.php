@@ -5,6 +5,11 @@ namespace App\Providers;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
+/**
+ * Class EventServiceProvider.
+ *
+ * @package App\Providers
+ */
 class EventServiceProvider extends ServiceProvider
 {
     /**
@@ -13,9 +18,9 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Acacha\Forge\Events\ServerHasBeenAssignedToUser' => [
-            'Acacha\Forge\Listeners\SentNotificationServerHasBeenAssignedToUserToManager',
-        ],
+//        \Acacha\Forge\Events\ServerHasBeenAssignedToUser::class => [
+//            \Acacha\Forge\Listeners\SendNotificationServerHasBeenAssignedToUserToManager::class,
+//        ],
     ];
 
     /**
