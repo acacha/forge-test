@@ -12,7 +12,7 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.vue resources/assets/js"
   },
   "devDependencies": {
-    "acacha-forms": "^1.0.0",
+    "acacha-forms": "^1.0.3",
     "admin-lte": "^2.4.2",
     "axios": "^0.16.2",
     "babel-eslint": "^7.1.1",
@@ -37,6 +37,7 @@
     "lodash": "^4.17.4",
     "toastr": "^2.1.2",
     "vue": "^2.1.10",
+    "vue-events": "^3.1.0",
     "vue-multiselect": "^2.0.6"
   }
 }

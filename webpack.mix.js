@@ -22,6 +22,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
   .sourceMaps()
   .webpackConfig({
     resolve: {
+      symlinks:false,
       modules: [
         path.resolve(__dirname, 'vendor/acacha/forge/resources/assets/js'),
         'node_modules'
