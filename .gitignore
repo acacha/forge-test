@@ -12,3 +12,4 @@ yarn-error.log
 .env
 forge/
 adminlte-vue
+.idea_old

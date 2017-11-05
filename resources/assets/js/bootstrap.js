@@ -42,6 +42,12 @@ if (token) {
   console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
 }
 
+// window.axios.defaults.headers.common = {
+//   'X-Requested-With': 'XMLHttpRequest',
+//   'Authorization': 'Bearer',
+//   'Accept': 'application/json',
+// };
+
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
  * using reactive data binding and reusable components. Vue's API is clean
