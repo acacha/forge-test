@@ -2,6 +2,10 @@
 
 use Illuminate\Database\Seeder;
 
+/**
+ * Class DatabaseSeeder
+ *
+ */
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +15,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        initialize_forge_management_permissions();
+        create_first_user();
+        first_user_as_forge_manager();
+
+        Artisan::call('passport:install');
+
+        set_laravel_passport_grant_client_token();
+
     }
 }
