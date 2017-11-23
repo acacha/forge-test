@@ -29,9 +29,3 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 });
-
-$server = new stdClass();
-$server->name = "name";
-$server->forge_id = "15289";
-$server->user = "sergiturbadenas";
-Route::view('/prova','acacha-forge::server_permission_approved',[ 'server' => $server ]);
