@@ -8,6 +8,7 @@
         "php": ">=7.0.0",
         "acacha/admin-lte-template-laravel": "^5.0",
         "acacha/forge": "dev-master",
+        "acacha/forge-publish": "^0.1.4",
         "acacha/laravel-social": "^0.1.9",
         "acacha/stateful-eloquent": "^0.1.8",
         "barryvdh/laravel-debugbar": "^3.1",
