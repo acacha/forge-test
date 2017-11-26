@@ -211,16 +211,16 @@
         },
         {
             "name": "acacha/forge-publish",
-            "version": "0.1.5",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acacha/forge-publish.git",
-                "reference": "095d667e7e817f02d7f29fe982929a1add41a7c9"
+                "reference": "c62d5e615e97c03bb769bc824e943e11b9f47b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acacha/forge-publish/zipball/095d667e7e817f02d7f29fe982929a1add41a7c9",
-                "reference": "095d667e7e817f02d7f29fe982929a1add41a7c9",
+                "url": "https://api.github.com/repos/acacha/forge-publish/zipball/c62d5e615e97c03bb769bc824e943e11b9f47b08",
+                "reference": "c62d5e615e97c03bb769bc824e943e11b9f47b08",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
                 "acacha",
                 "forge-publish"
             ],
-            "time": "2017-11-26T18:44:43+00:00"
+            "time": "2017-11-26T18:58:18+00:00"
         },
         {
             "name": "acacha/helpers",
