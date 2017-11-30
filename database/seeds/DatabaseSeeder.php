@@ -3,8 +3,7 @@
 use Illuminate\Database\Seeder;
 
 /**
- * Class DatabaseSeeder
- *
+ * Class DatabaseSeeder.
  */
 class DatabaseSeeder extends Seeder
 {
@@ -22,6 +21,5 @@ class DatabaseSeeder extends Seeder
         Artisan::call('passport:install');
 
         set_laravel_passport_grant_client_token();
-
     }
 }
