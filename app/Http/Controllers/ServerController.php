@@ -30,7 +30,8 @@ class ServerController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
+     *
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -41,7 +42,8 @@ class ServerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Server  $server
+     * @param \App\Server $server
+     *
      * @return \Illuminate\Http\Response
      */
     public function show(Server $server)
@@ -52,7 +54,8 @@ class ServerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Server  $server
+     * @param \App\Server $server
+     *
      * @return \Illuminate\Http\Response
      */
     public function edit(Server $server)
@@ -63,8 +66,9 @@ class ServerController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Server  $server
+     * @param \Illuminate\Http\Request $request
+     * @param \App\Server              $server
+     *
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Server $server)
@@ -75,7 +79,8 @@ class ServerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Server  $server
+     * @param \App\Server $server
+     *
      * @return \Illuminate\Http\Response
      */
     public function destroy(Server $server)

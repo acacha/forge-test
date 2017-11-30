@@ -20,7 +20,7 @@ return [
     ],
 
     'ses' => [
-        'key' => env('SES_KEY'),
+        'key'    => env('SES_KEY'),
         'secret' => env('SES_SECRET'),
         'region' => 'us-east-1',
     ],
@@ -30,8 +30,8 @@ return [
     ],
 
     'stripe' => [
-        'model' => App\User::class,
-        'key' => env('STRIPE_KEY'),
+        'model'  => App\User::class,
+        'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
 
@@ -41,16 +41,16 @@ return [
     | See: https://github.com/acacha/llum
     |
     */
-    #llum_services
+    //llum_services
 
     'github' => [
-        'client_id' => env('GITHUB_OAUTH_APP_ID'),
+        'client_id'     => env('GITHUB_OAUTH_APP_ID'),
         'client_secret' => env('GITHUB_OAUTH_APP_SECRET'),
-        'redirect' => env('GITHUB_OAUTH_APP_REDIRECT_URL'),
+        'redirect'      => env('GITHUB_OAUTH_APP_REDIRECT_URL'),
     ],
 
     'telegram-bot-api' => [
-        'token' => env('TELEGRAM_BOT_TOKEN')
+        'token' => env('TELEGRAM_BOT_TOKEN'),
     ],
 
 ];

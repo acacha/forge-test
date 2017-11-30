@@ -3,15 +3,13 @@
 namespace App;
 
 use Acacha\Forge\Models\Traits\HasServers;
-use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 
 /**
  * Class User.
- *
- * @package App
  */
 class User extends Authenticatable
 {

@@ -1,8 +1,8 @@
 <?php
 
-use Spatie\Menu\Laravel\Menu;
 use Spatie\Menu\Laravel\Html;
 use Spatie\Menu\Laravel\Link;
+use Spatie\Menu\Laravel\Menu;
 
 //Menu::macro('fullsubmenuexample', function () {
 //    return Menu::new()->prepend('<a href="#"><span> Multilevel PROVA </span> <i class="fa fa-angle-left pull-right"></i></a>')
@@ -13,7 +13,7 @@ use Spatie\Menu\Laravel\Link;
 //});
 
 Menu::macro('adminlteSubmenu', function ($submenuName) {
-    return Menu::new()->prepend('<a href="#"><span> ' . $submenuName . '</span> <i class="fa fa-angle-left pull-right"></i></a>')
+    return Menu::new()->prepend('<a href="#"><span> '.$submenuName.'</span> <i class="fa fa-angle-left pull-right"></i></a>')
         ->addParentClass('treeview')->addClass('treeview-menu');
 });
 Menu::macro('adminlteMenu', function () {
@@ -25,7 +25,7 @@ Menu::macro('adminlteSeparator', function ($title) {
 });
 
 Menu::macro('adminlteDefaultMenu', function ($content) {
-    return Html::raw('<i class="fa fa-link"></i><span>' . $content . '</span>')->html();
+    return Html::raw('<i class="fa fa-link"></i><span>'.$content.'</span>')->html();
 });
 
 Menu::macro('sidebar', function () {

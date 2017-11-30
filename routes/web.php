@@ -21,11 +21,9 @@ Route::group(['middleware' => 'auth'], function () {
 //    });
 
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
-    #adminlte_routes
+    //adminlte_routes
 
-    Route::view('/passport-tokens','passport-tokens');
+    Route::view('/passport-tokens', 'passport-tokens');
 
-    Route::view('/home','acacha-forge::home');
-
-
+    Route::view('/home', 'acacha-forge::home');
 });
