@@ -4,6 +4,16 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./forge"
+        },
+        {
+            "type": "path",
+            "url": "./groups"
+        }
+    ],
     "require": {
         "php": ">=7.0.0",
         "acacha/admin-lte-template-laravel": "^5.0",
