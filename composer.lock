@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "45d60cbbd76d700950258114c143b856",
+    "content-hash": "5d5264bf9ec6f0c66345364815cefeac",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
@@ -273,6 +273,78 @@
                 "forge-publish"
             ],
             "time": "2017-11-26T18:58:18+00:00"
+        },
+        {
+            "name": "acacha/groups",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./groups",
+                "reference": "9f2346a49c1bb1cfe14405f1adf0746ced5242fb",
+                "shasum": null
+            },
+            "require": {
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Acacha\\Groups\\Providers\\AcachaGroupsServiceProvider"
+                    ],
+                    "aliases": {
+                        "AcachaGroups": "Acacha\\Groups\\AcachaGroups"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Acacha\\Groups\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Acacha\\Groups\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ],
+                "check-style": [
+                    "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+                ],
+                "fix-style": [
+                    "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sergi Tur Badenas",
+                    "email": "sergiturbadenas@gmail.com",
+                    "homepage": "https://github.com/acacha",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Polimorfic groups for Laravel",
+            "homepage": "https://github.com/acacha/groups",
+            "keywords": [
+                "acacha",
+                "groups"
+            ]
         },
         {
             "name": "acacha/helpers",
@@ -6635,7 +6707,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "acacha/forge": 20
+        "acacha/forge": 20,
+        "acacha/groups": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -9,6 +9,9 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
+        <testsuite name="Groups">
+            <directory suffix="Test.php">./groups/tests/Feature</directory>
+        </testsuite>
         <testsuite name="Forge">
             <directory suffix="Test.php">./forge/tests/Feature</directory>
         </testsuite>

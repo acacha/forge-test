@@ -11,5 +11,6 @@ npm-debug.log
 yarn-error.log
 .env
 forge/
+groups/
 adminlte-vue
 .idea_old

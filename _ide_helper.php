@@ -15470,7 +15470,7 @@ namespace  {
     {
     }
 
-    class AcachaForge extends \Acacha\Forge\AcachaForge
+    class AcachaGroups extends \Acacha\Forge\AcachaGroups
     {
     }
 
