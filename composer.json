@@ -12,6 +12,10 @@
         {
             "type": "path",
             "url": "./groups"
+        },
+        {
+            "type": "path",
+            "url": "./users"
         }
     ],
     "require": {
@@ -21,7 +25,8 @@
         "acacha/forge-publish": "^0.1.4",
         "acacha/groups": "dev-master",
         "acacha/laravel-social": "^0.1.9",
-        "acacha/stateful-eloquent": "^0.1.8",
+        "acacha/stateful-eloquent": "dev-master",
+        "acacha/users": "dev-master",
         "barryvdh/laravel-debugbar": "^3.1",
         "barryvdh/laravel-ide-helper": "^2.4",
         "fideloper/proxy": "~3.3",

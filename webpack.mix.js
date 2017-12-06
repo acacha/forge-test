@@ -24,7 +24,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
     resolve: {
       symlinks:false,
       modules: [
-        path.resolve(__dirname, 'vendor/acacha/forge/resources/assets/js'),
+        path.resolve(__dirname, './users/resources/assets/js'),
+        path.resolve(__dirname, './forge/resources/assets/js'),
         'node_modules'
       ]
     }

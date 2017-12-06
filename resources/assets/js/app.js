@@ -18,7 +18,7 @@ Vue.use(VueEvents)
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('forge-bootstrap');
+require('acacha-forge');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 

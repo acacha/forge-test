@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         initialize_forge_management_permissions();
         create_first_user();
         first_user_as_forge_manager();
+        first_user_as_teacher();
 
         Artisan::call('passport:install');
 
