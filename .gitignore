@@ -13,6 +13,7 @@ yarn-error.log
 forge/
 groups/
 users/
-forms/
+acacha-forms/
+acacha-adminlte-vue-forms/
 adminlte-vue
 .idea_old

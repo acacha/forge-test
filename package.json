@@ -41,8 +41,12 @@
     "vue-events": "^3.1.0",
     "vue-multiselect": "^2.0.6",
     "vuetable-2": "^1.7.0",
+    "acacha-forms": "file:./acacha-forms",
     "acacha-forge": "file:./forge/resources/assets/js",
-    "acacha-users": "file:./users/resources/assets/js",
-    "acacha-forms": "file:./acacha-forms"
+    "acacha-adminlte-vue-forms": "file:./acacha-adminlte-vue-forms",
+    "acacha-users": "file:./users/resources/assets/js"
+  },
+  "dependencies": {
+    "vuex": "^3.0.1"
   }
 }
