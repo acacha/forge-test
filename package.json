@@ -12,12 +12,7 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.vue resources/assets/js"
   },
   "devDependencies": {
-    "acacha-adminlte-vue-forms": "file:./acacha-adminlte-vue-forms",
-    "acacha-forge": "file:./forge/resources/assets/js",
-    "acacha-forms": "file:./acacha-forms",
-    "acacha-users": "file:./users/resources/assets/js",
     "admin-lte": "^2.4.2",
-    "adminlte-vue": "file:adminlte-vue",
     "axios": "^0.16.2",
     "babel-eslint": "^7.1.1",
     "babel-plugin-transform-runtime": "^6.23.0",
