@@ -17,6 +17,7 @@
     "acacha-forms": "file:./acacha-forms",
     "acacha-users": "file:./users/resources/assets/js",
     "admin-lte": "^2.4.2",
+    "adminlte-vue": "file:adminlte-vue",
     "axios": "^0.16.2",
     "babel-eslint": "^7.1.1",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -47,7 +48,6 @@
     "vuetable-2": "^1.7.1"
   },
   "dependencies": {
-    "adminlte-vue": "file:adminlte-vue",
     "vuex": "^3.0.1"
   }
 }
