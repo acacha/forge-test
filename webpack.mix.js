@@ -17,11 +17,11 @@ mix.js('resources/assets/js/app.js', 'public/js')
   .webpackConfig({
     resolve: {
       modules: [
-        path.resolve(__dirname, './acacha-forms'),
-        path.resolve(__dirname, './adminlte-vue'),
-        path.resolve(__dirname, './acacha-adminlte-vue-forms'),
-        path.resolve(__dirname, './users/resources/assets/js'),
-        path.resolve(__dirname, './forge/resources/assets/js'),
+        path.resolve(__dirname, 'acacha-forms'),
+        path.resolve(__dirname, 'adminlte-vue'),
+        path.resolve(__dirname, 'acacha-adminlte-vue-forms'),
+        path.resolve(__dirname, 'users/resources/assets/js'),
+        path.resolve(__dirname, 'forge/resources/assets/js'),
         'node_modules'
       ]
     }
