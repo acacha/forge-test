@@ -12,6 +12,10 @@
     "lint": "./node_modules/.bin/eslint --ext .js,.vue resources/assets/js"
   },
   "devDependencies": {
+    "acacha-adminlte-vue-forms": "file:./acacha-adminlte-vue-forms",
+    "acacha-forge": "file:./forge/resources/assets/js",
+    "acacha-forms": "file:./acacha-forms",
+    "acacha-users": "file:./users/resources/assets/js",
     "admin-lte": "^2.4.2",
     "axios": "^0.16.2",
     "babel-eslint": "^7.1.1",
@@ -40,14 +44,10 @@
     "vue": "^2.1.10",
     "vue-events": "^3.1.0",
     "vue-multiselect": "^2.0.6",
-    "vuetable-2": "^1.7.0",
-    "acacha-forms": "file:./acacha-forms",
-    "acacha-forge": "file:./forge/resources/assets/js",
-    "adminlte-vue": "file:./adminlte-vue",
-    "acacha-adminlte-vue-forms": "file:./acacha-adminlte-vue-forms",
-    "acacha-users": "file:./users/resources/assets/js"
+    "vuetable-2": "^1.7.1"
   },
   "dependencies": {
+    "adminlte-vue": "file:adminlte-vue",
     "vuex": "^3.0.1"
   }
 }

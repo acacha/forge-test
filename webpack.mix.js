@@ -11,19 +11,15 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.webpackConfig({
-  resolve: {
-    extensions: [".webpack.js", ".web.js", ".js", ".json", ".less"]
-  }
-});
-
 mix.js('resources/assets/js/app.js', 'public/js')
    .js('resources/assets/js/app-landing.js', 'public/js/app-landing.js')
   .sourceMaps()
   .webpackConfig({
     resolve: {
-      symlinks:false,
       modules: [
+        path.resolve(__dirname, './acacha-forms'),
+        path.resolve(__dirname, './adminlte-vue'),
+        path.resolve(__dirname, './acacha-adminlte-vue-forms'),
         path.resolve(__dirname, './users/resources/assets/js'),
         path.resolve(__dirname, './forge/resources/assets/js'),
         'node_modules'
