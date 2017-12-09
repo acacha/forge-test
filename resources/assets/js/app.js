@@ -25,8 +25,8 @@ Vue.component(
 );
 
 //TODO: Needed? Now using vuex remove?
-import VueEvents from 'vue-events'
-Vue.use(VueEvents)
+// import VueEvents from 'vue-events'
+// Vue.use(VueEvents)
 
 import Vuex from 'vuex';
 Vue.use(Vuex);
