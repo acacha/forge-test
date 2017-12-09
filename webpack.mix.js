@@ -1,5 +1,5 @@
-let mix = require('laravel-mix');
-var path = require('path');
+let mix = require('laravel-mix')
+let path = require('path')
 
 /*
  |--------------------------------------------------------------------------
@@ -18,6 +18,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
   .webpackConfig({
     resolve: {
       modules: [
+        path.resolve(__dirname, 'javascript'),
         path.resolve(__dirname, 'users/resources/assets/js'),
         path.resolve(__dirname, 'forge/resources/assets/js'),
         'node_modules'
