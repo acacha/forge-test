@@ -43,6 +43,10 @@
     "vuetable-2": "^1.7.1"
   },
   "dependencies": {
+    "adminlte-vue": "^0.1.3",
+    "gravatar": "^1.6.0",
+    "password-generator": "^2.2.0",
+    "vue-scrollto": "^2.8.0",
     "vuex": "^3.0.1"
   }
 }
