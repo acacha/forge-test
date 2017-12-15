@@ -16,11 +16,16 @@
         {
             "type": "path",
             "url": "./users"
+        },
+        {
+            "type": "path",
+            "url": "/home/sergi/Code/acacha/AdminLTE/acacha/adminlte-laravel"
         }
+
     ],
     "require": {
         "php": ">=7.0.0",
-        "acacha/admin-lte-template-laravel": "^5.0",
+        "acacha/admin-lte-template-laravel": "dev-master",
         "acacha/forge": "dev-master",
         "acacha/forge-publish": "^0.1.4",
         "acacha/groups": "dev-master",
@@ -39,6 +44,7 @@
     "require-dev": {
         "filp/whoops": "~2.0",
         "fzaninotto/faker": "~1.4",
+        "laravel/dusk": "^2.0",
         "mockery/mockery": "~1.0",
         "phpunit/phpunit": "~6.0"
     },
